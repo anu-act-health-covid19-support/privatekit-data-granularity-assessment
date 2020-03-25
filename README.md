@@ -8,7 +8,7 @@ The purpose of this repo is to assess how granular the data captured by the Priv
 
 Person: Kathy Reid, 25th March 2020, 1200hrs 
 
-* Exported data from the Private Kit application on mobile phone
+* Exported data from the Private Kit application on mobile phone. I've been running this for around 5 days. 
 * this is held in this repo in [this file](https://github.com/ACT-COVID-19-TRACKER/privatekit-data-granularity-assessment/blob/master/1585096669577.null)
 * Examination of the data structure showed it was well-formed `JSON`, but _not_ `GeoJSON`. 
 * Wrote a Python script to convert `JSON` to `GeoJSON`
@@ -34,10 +34,11 @@ The granularity is to within a few metres - it is likely that this would be affe
 
 The datapoints are taken at 5 minute intervals, so this granularity may not be effective if a person is cycling or travelling by bus, light rail or car. 
 
-_The granularity of datapoint recording cannot be changed within the app itself - it would need to be recompiled, then pushed to the various app stores. 
+_The granularity of datapoint recording cannot be changed within the app itself - it would need to be recompiled, then pushed to the various app stores._ 
 
 ## Questions arising from this test 
 
 * Is the data fine-grained enough for the purposes of the broader initiative here - ie Contact Tracing, statistics and so on? 
+* Should I proceed to doing a more complex visualisation that can show location over time? 
 
 
